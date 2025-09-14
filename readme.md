@@ -43,3 +43,11 @@ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 5.  Testando a conexão:
     - Digite no terminal: `ssh -T git@github.com`
     - Se der certo você verá a mensagem: Hi seu-usuario! You've successfully authenticated, but GitHub does not provide shell access.
+
+## Usando um PAT
+
+- Com o token criado, altere a URL do seu Repositório Local para HTTPS:
+  - `git remote -v`: Se começar com `git@github.com`, é SSH e precisa ser trocado.
+  - No repositório no GitHub, clique no botão "Code" e copie a URL da aba HTTPS.
+  - No seu terminal, execute o comando para alterar a URL (substitua pela URL que você copiou): `git remote set-url origin https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git`
+- Quando fizer o `git push` irá pedir usuário e senha, a senha sendo o token criado antes.
