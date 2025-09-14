@@ -11,6 +11,10 @@
 - `git remote add origin <linkdorepositorio>`: Cria a conexão do repositório local com o repositório do github com o nome origin
 - `git push -u origin main`: Mando o commit para o github
 - `git checkout -b "Nome da nova branch"`: Cria uma nova branch, e com o `checkout`, muda para essa nova branch
+- `git checkout main`: Volta para main.
+- `git merge <nomedabranch>`: Integra as alterações de uma branch para a outra, após isso, usar o `git push origin main`
+- `git clone https://github.com/nomedousuario/nomerepositorio.git`: Cria um clone do repositório na sua máquina
+- `git pull`: Puxa as alterações do repositório no GitHub.
 
 ## Como criar uma chave SSH
 
