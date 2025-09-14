@@ -10,6 +10,7 @@
 - `git branch -M "novonome"`: Para renomear a branch
 - `git remote add origin <linkdorepositorio>`: Cria a conexão do repositório local com o repositório do github com o nome origin
 - `git push -u origin main`: Mando o commit para o github
+- `git checkout -b "Nome da nova branch"`: Cria uma nova branch, e com o `checkout`, muda para essa nova branch
 
 ## Como criar uma chave SSH
 
